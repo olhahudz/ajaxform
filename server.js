@@ -67,3 +67,5 @@ app.post("/mypost", function (reg, res) {
 	console.log(reg.body);
 	res.send('success');
 } );
+
+app.listen(process.env.PORT||8080);  // 15/11/2016
